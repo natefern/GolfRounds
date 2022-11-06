@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Front Nine" section_id="f8e555a447c39110b16fa368436d435f" sys_domain="global" table="x_898924_rounds_rounds" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hole_1</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-05 21:38:08</sys_created_on>
+            <sys_id>8ac632e8478b9110b16fa368436d437a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Front Nine" display_value="Front Nine" name="x_898924_rounds_rounds" sys_domain="global" view="Default view">f8e555a447c39110b16fa368436d435f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-05 21:38:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hole_2</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-05 21:38:08</sys_created_on>
+            <sys_id>8ec632e8478b9110b16fa368436d437a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Front Nine" display_value="Front Nine" name="x_898924_rounds_rounds" sys_domain="global" view="Default view">f8e555a447c39110b16fa368436d435f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-05 21:38:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hole_3</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-05 21:38:08</sys_created_on>
+            <sys_id>82c632e8478b9110b16fa368436d437b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Front Nine" display_value="Front Nine" name="x_898924_rounds_rounds" sys_domain="global" view="Default view">f8e555a447c39110b16fa368436d435f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-05 21:38:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hole_4</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-05 21:38:08</sys_created_on>
+            <sys_id>86c632e8478b9110b16fa368436d437b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Front Nine" display_value="Front Nine" name="x_898924_rounds_rounds" sys_domain="global" view="Default view">f8e555a447c39110b16fa368436d435f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-05 21:38:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hole_5</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-05 21:38:08</sys_created_on>
+            <sys_id>8ac632e8478b9110b16fa368436d437b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Front Nine" display_value="Front Nine" name="x_898924_rounds_rounds" sys_domain="global" view="Default view">f8e555a447c39110b16fa368436d435f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-05 21:38:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hole_6</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-05 21:38:08</sys_created_on>
+            <sys_id>8ec632e8478b9110b16fa368436d437b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Front Nine" display_value="Front Nine" name="x_898924_rounds_rounds" sys_domain="global" view="Default view">f8e555a447c39110b16fa368436d435f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-05 21:38:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hole_7</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-05 21:38:08</sys_created_on>
+            <sys_id>82c632e8478b9110b16fa368436d437c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Front Nine" display_value="Front Nine" name="x_898924_rounds_rounds" sys_domain="global" view="Default view">f8e555a447c39110b16fa368436d435f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-05 21:38:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hole_8</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-05 21:38:08</sys_created_on>
+            <sys_id>86c632e8478b9110b16fa368436d437c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Front Nine" display_value="Front Nine" name="x_898924_rounds_rounds" sys_domain="global" view="Default view">f8e555a447c39110b16fa368436d435f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-05 21:38:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hole_9</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-05 21:38:08</sys_created_on>
+            <sys_id>8ac632e8478b9110b16fa368436d437c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Front Nine" display_value="Front Nine" name="x_898924_rounds_rounds" sys_domain="global" view="Default view">f8e555a447c39110b16fa368436d435f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-05 21:38:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Front Nine</caption>
+            <header>false</header>
+            <name>x_898924_rounds_rounds</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-05 14:34:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f8e555a447c39110b16fa368436d435f</sys_id>
+            <sys_name>x_898924_rounds_rounds</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Golf Rounds" source="x_898924_rounds">c1394d2847839110b16fa368436d431b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Golf Rounds">c1394d2847839110b16fa368436d431b</sys_scope>
+            <sys_update_name>sys_ui_section_f8e555a447c39110b16fa368436d435f</sys_update_name>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

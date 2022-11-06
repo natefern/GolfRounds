@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Golf Rounds">d24d056c47839110b16fa368436d43c5</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Rentals</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_898924_rounds_rentals</name>
+        <order>300</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_898924_rounds.rentals_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-05 21:52:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>33f9feac478b9110b16fa368436d438f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Rentals</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Golf Rounds" source="x_898924_rounds">c1394d2847839110b16fa368436d431b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Golf Rounds">c1394d2847839110b16fa368436d431b</sys_scope>
+        <sys_update_name>sys_app_module_33f9feac478b9110b16fa368436d438f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-05 22:32:27</sys_updated_on>
+        <timeline_page/>
+        <title>Rentals</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Golf Rounds">c1394d2847839110b16fa368436d431b</application>
+        <file_path/>
+        <instance_id>40c2b9fddb31cd101b813feb68961981</instance_id>
+        <instance_name>dev125984</instance_name>
+        <name>sys_app_module_33f9feac478b9110b16fa368436d438f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Golf Rounds">d24d056c47839110b16fa368436d43c5</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Rentals</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_898924_rounds_rentals</name><order>300</order><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_898924_rounds.rentals_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-05 21:52:11</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>33f9feac478b9110b16fa368436d438f</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Rentals</sys_name><sys_overrides/><sys_package display_value="Golf Rounds" source="x_898924_rounds">c1394d2847839110b16fa368436d431b</sys_package><sys_policy/><sys_scope display_value="Golf Rounds">c1394d2847839110b16fa368436d431b</sys_scope><sys_update_name>sys_app_module_33f9feac478b9110b16fa368436d438f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-05 22:32:27</sys_updated_on><timeline_page/><title>Rentals</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>959227274</payload_hash>
+        <record_name>Rentals</record_name>
+        <reverted_from/>
+        <source>09394d2847839110b16fa368436d431d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-05 22:32:27</sys_created_on>
+        <sys_id>6d330ba847cb9110b16fa368436d4372</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18449ec812e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-05 22:32:27</sys_updated_on>
+        <type>Module</type>
+        <update_guid>a5330ba8aacb9110e4415df14f841e72</update_guid>
+        <update_guid_history>a5330ba8aacb9110e4415df14f841e72:959227274,2eab326028cb9110c38263019a5b9be9:2040765099,3ff9feac1d8b911067ba035e223a6b90:-461282669</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Rentals">5c158f2c47cb9110b16fa368436d4358</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-05 22:40:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>379f1d5b70fd4dea8d7d92f56aaab364</sys_id>
+        <sys_metadata>33f9feac478b9110b16fa368436d438f</sys_metadata>
+        <sys_name>Rentals</sys_name>
+        <sys_package display_value="Golf Rounds" source="x_898924_rounds">c1394d2847839110b16fa368436d431b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Golf Rounds">c1394d2847839110b16fa368436d431b</sys_scope>
+        <sys_scope_delete display_value="">40615300aff64661a4d094df23baef09</sys_scope_delete>
+        <sys_update_name>sys_app_module_33f9feac478b9110b16fa368436d438f</sys_update_name>
+        <sys_update_version display_value="sys_app_module_33f9feac478b9110b16fa368436d438f">6d330ba847cb9110b16fa368436d4372</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

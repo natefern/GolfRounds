@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="DELETE">
+        <active>true</active>
+        <hint/>
+        <name>Golf Rounds</name>
+        <order/>
+        <roles/>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-05 14:08:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4cdf492047c39110b16fa368436d43eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Golf Rounds</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Golf Rounds" source="x_898924_rounds">c1394d2847839110b16fa368436d431b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Golf Rounds">c1394d2847839110b16fa368436d431b</sys_scope>
+        <sys_update_name>sys_ui_application_4cdf492047c39110b16fa368436d43eb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-05 14:08:16</sys_updated_on>
+    </sys_ui_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Golf Rounds">c1394d2847839110b16fa368436d431b</application>
+        <file_path/>
+        <instance_id>40c2b9fddb31cd101b813feb68961981</instance_id>
+        <instance_name>dev125984</instance_name>
+        <name>sys_ui_application_4cdf492047c39110b16fa368436d43eb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>Golf Rounds</name><order/><roles/><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-05 14:08:16</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4cdf492047c39110b16fa368436d43eb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Golf Rounds</sys_name><sys_overrides/><sys_package display_value="Golf Rounds" source="x_898924_rounds">c1394d2847839110b16fa368436d431b</sys_package><sys_policy/><sys_scope display_value="Golf Rounds">c1394d2847839110b16fa368436d431b</sys_scope><sys_update_name>sys_ui_application_4cdf492047c39110b16fa368436d43eb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-05 14:08:16</sys_updated_on></sys_ui_application></record_update>]]></payload>
+        <payload_hash>-1633403902</payload_hash>
+        <record_name>Golf Rounds</record_name>
+        <reverted_from/>
+        <source>09394d2847839110b16fa368436d431d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-05 14:08:16</sys_created_on>
+        <sys_id>4cdf492047c39110b16fa368436d43ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184481ee8f40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-05 14:08:16</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>84df492015c391106aae8f442441d0ed</update_guid>
+        <update_guid_history>84df492015c391106aae8f442441d0ed:-1633403902</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-05 14:39:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_application">sys_ui_application</sys_db_object>
+        <sys_id>accca606d93d4bd098c8e2f0876efa10</sys_id>
+        <sys_metadata>4cdf492047c39110b16fa368436d43eb</sys_metadata>
+        <sys_name>Golf Rounds</sys_name>
+        <sys_package display_value="Golf Rounds" source="x_898924_rounds">c1394d2847839110b16fa368436d431b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Golf Rounds">c1394d2847839110b16fa368436d431b</sys_scope>
+        <sys_scope_delete display_value="">40615300aff64661a4d094df23baef09</sys_scope_delete>
+        <sys_update_name>sys_ui_application_4cdf492047c39110b16fa368436d43eb</sys_update_name>
+        <sys_update_version display_value="sys_ui_application_4cdf492047c39110b16fa368436d43eb">4cdf492047c39110b16fa368436d43ed</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

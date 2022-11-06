@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Golf Rounds">d24d056c47839110b16fa368436d43c5</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>NEW</link_type>
+        <map_page/>
+        <mobile_title>Rounds</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_898924_rounds_rounds</name>
+        <order>200</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_898924_rounds.rounds_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-05 14:08:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>00df012047c39110b16fa368436d43ad</sys_id>
+        <sys_name>Schedule a Tee Time</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Golf Rounds" source="x_898924_rounds">c1394d2847839110b16fa368436d431b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Golf Rounds">c1394d2847839110b16fa368436d431b</sys_scope>
+        <sys_update_name>sys_app_module_00df012047c39110b16fa368436d43ad</sys_update_name>
+        <timeline_page/>
+        <title>Schedule a Tee Time</title>
+        <uncancelable>false</uncancelable>
+        <view_name>schedule_tee_time</view_name>
+        <window_name/>
+    </sys_app_module>
+</record_update>

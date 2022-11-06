@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name/>
+        <order>100</order>
+        <roles/>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-05 22:39:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cbb4cb2c47cb9110b16fa368436d4319</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Administration</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Golf Rounds" source="x_898924_rounds">c1394d2847839110b16fa368436d431b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Golf Rounds">c1394d2847839110b16fa368436d431b</sys_scope>
+        <sys_update_name>sys_app_application_cbb4cb2c47cb9110b16fa368436d4319</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-05 22:39:29</sys_updated_on>
+        <title>Administration</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Golf Rounds">c1394d2847839110b16fa368436d431b</application>
+        <file_path/>
+        <instance_id>40c2b9fddb31cd101b813feb68961981</instance_id>
+        <instance_name>dev125984</instance_name>
+        <name>sys_app_application_cbb4cb2c47cb9110b16fa368436d4319</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name/><order>100</order><roles/><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-05 22:39:29</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>cbb4cb2c47cb9110b16fa368436d4319</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Administration</sys_name><sys_overrides/><sys_package display_value="Golf Rounds" source="x_898924_rounds">c1394d2847839110b16fa368436d431b</sys_package><sys_policy/><sys_scope display_value="Golf Rounds">c1394d2847839110b16fa368436d431b</sys_scope><sys_update_name>sys_app_application_cbb4cb2c47cb9110b16fa368436d4319</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-05 22:39:29</sys_updated_on><title>Administration</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>2075330665</payload_hash>
+        <record_name>Administration</record_name>
+        <reverted_from/>
+        <source>09394d2847839110b16fa368436d431d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-05 22:39:29</sys_created_on>
+        <sys_id>74d4c72c47cb9110b16fa368436d43c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18449f2f2f00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-05 22:39:29</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>bcd4c72cc0cb9110cd26f2d751cc93c1</update_guid>
+        <update_guid_history>bcd4c72cc0cb9110cd26f2d751cc93c1:2075330665</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Administration">7a7acba0470f9110b16fa368436d4394</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-05 23:04:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>03a0f87587bd44988022778eda3e2f90</sys_id>
+        <sys_metadata>cbb4cb2c47cb9110b16fa368436d4319</sys_metadata>
+        <sys_name>Administration</sys_name>
+        <sys_package display_value="Golf Rounds" source="x_898924_rounds">c1394d2847839110b16fa368436d431b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Golf Rounds">c1394d2847839110b16fa368436d431b</sys_scope>
+        <sys_scope_delete display_value="">40615300aff64661a4d094df23baef09</sys_scope_delete>
+        <sys_update_name>sys_app_application_cbb4cb2c47cb9110b16fa368436d4319</sys_update_name>
+        <sys_update_version display_value="sys_app_application_cbb4cb2c47cb9110b16fa368436d4319">74d4c72c47cb9110b16fa368436d43c2</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

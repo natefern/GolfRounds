@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>golfer</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-05 16:24:57</sys_created_on>
+        <sys_id>aa0fa9a447479110b16fa368436d43fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>golfer</sys_name>
+        <sys_package display_value="Golf Rounds" source="x_898924_rounds">c1394d2847839110b16fa368436d431b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Golf Rounds">c1394d2847839110b16fa368436d431b</sys_scope>
+        <sys_update_name>sys_ui_policy_action_aa0fa9a447479110b16fa368436d43fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-05 16:24:57</sys_updated_on>
+        <table>x_898924_rounds_rounds</table>
+        <ui_policy display_value="make pre-set fields read only">b7ae25a447479110b16fa368436d432f</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Golf Rounds">c1394d2847839110b16fa368436d431b</application>
+        <file_path/>
+        <instance_id>40c2b9fddb31cd101b813feb68961981</instance_id>
+        <instance_name>dev125984</instance_name>
+        <name>sys_ui_policy_action_aa0fa9a447479110b16fa368436d43fb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>golfer</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-05 16:24:57</sys_created_on><sys_id>aa0fa9a447479110b16fa368436d43fb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>golfer</sys_name><sys_package display_value="Golf Rounds" source="x_898924_rounds">c1394d2847839110b16fa368436d431b</sys_package><sys_policy/><sys_scope display_value="Golf Rounds">c1394d2847839110b16fa368436d431b</sys_scope><sys_update_name>sys_ui_policy_action_aa0fa9a447479110b16fa368436d43fb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-05 16:24:57</sys_updated_on><table>x_898924_rounds_rounds</table><ui_policy display_value="make pre-set fields read only">b7ae25a447479110b16fa368436d432f</ui_policy><visible>ignore</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-669101941</payload_hash>
+        <record_name>golfer</record_name>
+        <reverted_from/>
+        <source>09394d2847839110b16fa368436d431d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-05 16:24:57</sys_created_on>
+        <sys_id>221fa9a447479110b16fa368436d4377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184489c0f220000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-05 16:24:57</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>6a1fa9a44d47911073da4fb348e0a576</update_guid>
+        <update_guid_history>6a1fa9a44d47911073da4fb348e0a576:-669101941</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-05 22:07:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>3acdcfd10c5f4542a9e8637de0cae2c4</sys_id>
+        <sys_metadata>aa0fa9a447479110b16fa368436d43fb</sys_metadata>
+        <sys_name>golfer</sys_name>
+        <sys_package display_value="Golf Rounds" source="x_898924_rounds">c1394d2847839110b16fa368436d431b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Golf Rounds">c1394d2847839110b16fa368436d431b</sys_scope>
+        <sys_scope_delete display_value="">40615300aff64661a4d094df23baef09</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_aa0fa9a447479110b16fa368436d43fb</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_aa0fa9a447479110b16fa368436d43fb">221fa9a447479110b16fa368436d4377</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="sys_class_name" table="x_898924_rounds_rounds">
+        <active>true</active>
+        <array>false</array>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Class</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value>javascript:current.getTableName();</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sys_class_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="">sys_class_name</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>80</max_length>
+        <name>x_898924_rounds_rounds</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-05 14:08:17</sys_created_on>
+        <sys_id>dcdf892047c39110b16fa368436d4331</sys_id>
+        <sys_name>Class</sys_name>
+        <sys_package display_value="Golf Rounds" source="x_898924_rounds">c1394d2847839110b16fa368436d431b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Golf Rounds">c1394d2847839110b16fa368436d431b</sys_scope>
+        <sys_update_name>sys_dictionary_x_898924_rounds_rounds_sys_class_name</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-05 14:08:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Golf Rounds">c1394d2847839110b16fa368436d431b</application>
+        <file_path/>
+        <instance_id>40c2b9fddb31cd101b813feb68961981</instance_id>
+        <instance_name>dev125984</instance_name>
+        <name>sys_dictionary_x_898924_rounds_rounds_sys_class_name</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="sys_class_name" table="x_898924_rounds_rounds"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Class</column_label><comments/><create_roles/><default_value>javascript:current.getTableName();</default_value><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>sys_class_name</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="">sys_class_name</internal_type><mandatory>false</mandatory><max_length>80</max_length><name>x_898924_rounds_rounds</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-05 14:08:17</sys_created_on><sys_id>dcdf892047c39110b16fa368436d4331</sys_id><sys_name>Class</sys_name><sys_package display_value="Golf Rounds" source="x_898924_rounds">c1394d2847839110b16fa368436d431b</sys_package><sys_policy/><sys_scope display_value="Golf Rounds">c1394d2847839110b16fa368436d431b</sys_scope><sys_update_name>sys_dictionary_x_898924_rounds_rounds_sys_class_name</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-05 14:08:17</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type/><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>334324830</payload_hash>
+        <record_name>Rounds.Class</record_name>
+        <reverted_from/>
+        <source>09394d2847839110b16fa368436d431d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-05 14:08:17</sys_created_on>
+        <sys_id>d8df892047c39110b16fa368436d433e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184481eee050000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-05 14:08:17</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>54df892064c391109700a5cdde16453e</update_guid>
+        <update_guid_history>54df892064c391109700a5cdde16453e:334324830</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-05 14:25:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>02409f6b17d94ee3800ba30230f67949</sys_id>
+        <sys_metadata>dcdf892047c39110b16fa368436d4331</sys_metadata>
+        <sys_name>Class</sys_name>
+        <sys_package display_value="Golf Rounds" source="x_898924_rounds">c1394d2847839110b16fa368436d431b</sys_package>
+        <sys_parent display_value="Rounds">885f4dec47839110b16fa368436d43ae</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Golf Rounds">c1394d2847839110b16fa368436d431b</sys_scope>
+        <sys_scope_delete display_value="">40615300aff64661a4d094df23baef09</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_898924_rounds_rounds_sys_class_name</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_898924_rounds_rounds_sys_class_name">d8df892047c39110b16fa368436d433e</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

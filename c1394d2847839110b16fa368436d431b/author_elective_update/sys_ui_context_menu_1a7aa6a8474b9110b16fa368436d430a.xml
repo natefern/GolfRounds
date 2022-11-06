@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_context_menu">
+    <sys_ui_context_menu action="DELETE">
+        <action_script><![CDATA[/**
+ * Script executed on the Client for this menu action
+ *
+ * The following variables are available to the script:
+ *    'g_list' the GlideList2 that the script is running against (only valid for List context menus)
+ *    'g_fieldName' the name of the field that the context menu is running against (only valid for List context menus)
+ *    'g_fieldLabel' the label of the field that the context menu is running against (only valid for List context menus)
+ *    'g_sysId' the sys_id of the row or form that the script is running against
+ *    'rowSysId' is also set to the sys_id of the row to support legacy actions, but g_sysId is preferred
+ */
+ 
+]]></action_script>
+        <active>true</active>
+        <comments/>
+        <condition/>
+        <do_not_cache>false</do_not_cache>
+        <dynamic_actions_script><![CDATA[/** 
+ * This server-side script is used to dynamically create actions for the context menu, such as the list of available templates 
+ * 
+ * The following variables are available to the script: 
+ *    'g_tableName' the name of the current table 
+ *    'g_listId' the id of the list we are building the context menu for 
+ *    'g_itemName' the name of the UI Context Menu item we are building 
+ *    'g_itemOrder' the order defined in the UI Context Menu item we are building 
+ * 
+ * Add items to the context menu by calling: 
+ *    g_contextMenu.addAction(item_id, label, script_string, order); 
+ */ 
+]]></dynamic_actions_script>
+        <menu>list_row</menu>
+        <name>Dynamic context menu</name>
+        <on_show_script><![CDATA[/**
+ * This client-side script is used to dynamically change the context menu before it is displayed.
+ * It is called before showing the context menu if the Run onShow script flag is checked.
+ *
+ * The following variables are available to the script:
+ *    'g_menu' the context menu that is about to be shown
+ *    'g_item' the current context menu item
+ *    'g_list' the GlideList2 that the script is running against (only valid for List context menus)
+ *    'g_fieldName' the name of the field that the context menu is running against (only valid for List context menus)
+ *    'g_fieldLabel' the label of the field that the context menu is running against (only valid for List context menus)
+ *    'g_sysId' the sys_id of the row or form that the script is running against
+ */
+ 
+]]></on_show_script>
+        <order>110</order>
+        <parent/>
+        <run_on_show_script>false</run_on_show_script>
+        <sys_class_name>sys_ui_context_menu</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-05 20:45:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1a7aa6a8474b9110b16fa368436d430a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Dynamic context menu</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Golf Rounds" source="x_898924_rounds">c1394d2847839110b16fa368436d431b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Golf Rounds">c1394d2847839110b16fa368436d431b</sys_scope>
+        <sys_update_name>sys_ui_context_menu_1a7aa6a8474b9110b16fa368436d430a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-05 20:45:55</sys_updated_on>
+        <table>x_898924_rounds_rounds</table>
+        <track_selected>false</track_selected>
+        <type>dynamic</type>
+    </sys_ui_context_menu>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Golf Rounds">c1394d2847839110b16fa368436d431b</application>
+        <file_path/>
+        <instance_id>40c2b9fddb31cd101b813feb68961981</instance_id>
+        <instance_name>dev125984</instance_name>
+        <name>sys_ui_context_menu_1a7aa6a8474b9110b16fa368436d430a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_context_menu"&gt;&lt;sys_ui_context_menu action="INSERT_OR_UPDATE"&gt;&lt;action_script&gt;&lt;![CDATA[/**
+ * Script executed on the Client for this menu action
+ *
+ * The following variables are available to the script:
+ *    'g_list' the GlideList2 that the script is running against (only valid for List context menus)
+ *    'g_fieldName' the name of the field that the context menu is running against (only valid for List context menus)
+ *    'g_fieldLabel' the label of the field that the context menu is running against (only valid for List context menus)
+ *    'g_sysId' the sys_id of the row or form that the script is running against
+ *    'rowSysId' is also set to the sys_id of the row to support legacy actions, but g_sysId is preferred
+ */
+ 
+]]&gt;&lt;/action_script&gt;&lt;active&gt;true&lt;/active&gt;&lt;comments/&gt;&lt;condition/&gt;&lt;do_not_cache&gt;false&lt;/do_not_cache&gt;&lt;dynamic_actions_script&gt;&lt;![CDATA[/** 
+ * This server-side script is used to dynamically create actions for the context menu, such as the list of available templates 
+ * 
+ * The following variables are available to the script: 
+ *    'g_tableName' the name of the current table 
+ *    'g_listId' the id of the list we are building the context menu for 
+ *    'g_itemName' the name of the UI Context Menu item we are building 
+ *    'g_itemOrder' the order defined in the UI Context Menu item we are building 
+ * 
+ * Add items to the context menu by calling: 
+ *    g_contextMenu.addAction(item_id, label, script_string, order); 
+ */ 
+]]&gt;&lt;/dynamic_actions_script&gt;&lt;menu&gt;list_row&lt;/menu&gt;&lt;name&gt;Dynamic context menu&lt;/name&gt;&lt;on_show_script&gt;&lt;![CDATA[/**
+ * This client-side script is used to dynamically change the context menu before it is displayed.
+ * It is called before showing the context menu if the Run onShow script flag is checked.
+ *
+ * The following variables are available to the script:
+ *    'g_menu' the context menu that is about to be shown
+ *    'g_item' the current context menu item
+ *    'g_list' the GlideList2 that the script is running against (only valid for List context menus)
+ *    'g_fieldName' the name of the field that the context menu is running against (only valid for List context menus)
+ *    'g_fieldLabel' the label of the field that the context menu is running against (only valid for List context menus)
+ *    'g_sysId' the sys_id of the row or form that the script is running against
+ */
+ 
+]]&gt;&lt;/on_show_script&gt;&lt;order&gt;110&lt;/order&gt;&lt;parent/&gt;&lt;run_on_show_script&gt;false&lt;/run_on_show_script&gt;&lt;sys_class_name&gt;sys_ui_context_menu&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-11-05 20:45:27&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;1a7aa6a8474b9110b16fa368436d430a&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Dynamic context menu&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Golf Rounds" source="x_898924_rounds"&gt;c1394d2847839110b16fa368436d431b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Golf Rounds"&gt;c1394d2847839110b16fa368436d431b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_context_menu_1a7aa6a8474b9110b16fa368436d430a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-11-05 20:45:55&lt;/sys_updated_on&gt;&lt;table&gt;x_898924_rounds_rounds&lt;/table&gt;&lt;track_selected&gt;false&lt;/track_selected&gt;&lt;type&gt;dynamic&lt;/type&gt;&lt;/sys_ui_context_menu&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1593706251</payload_hash>
+        <record_name>Dynamic context menu</record_name>
+        <reverted_from/>
+        <source>09394d2847839110b16fa368436d431d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-05 20:45:55</sys_created_on>
+        <sys_id>cddae668474b9110b16fa368436d4338</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184498af90f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-05 20:45:55</sys_updated_on>
+        <type>Context Menu</type>
+        <update_guid>09dae6689a4b9110f2d39feea6fba938</update_guid>
+        <update_guid_history>09dae6689a4b9110f2d39feea6fba938:-1593706251,75caeaa8aa4b91109d1456d3e3d5f5ca:1665478348,dabaa668724b9110d782f6b84b5d2cd5:1548412122</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-05 20:48:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_context_menu">sys_ui_context_menu</sys_db_object>
+        <sys_id>395dcaa363fa46058b1daf0d5ab59139</sys_id>
+        <sys_metadata>1a7aa6a8474b9110b16fa368436d430a</sys_metadata>
+        <sys_name>Dynamic context menu</sys_name>
+        <sys_package display_value="Golf Rounds" source="x_898924_rounds">c1394d2847839110b16fa368436d431b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Golf Rounds">c1394d2847839110b16fa368436d431b</sys_scope>
+        <sys_scope_delete display_value="">40615300aff64661a4d094df23baef09</sys_scope_delete>
+        <sys_update_name>sys_ui_context_menu_1a7aa6a8474b9110b16fa368436d430a</sys_update_name>
+        <sys_update_version display_value="sys_ui_context_menu_1a7aa6a8474b9110b16fa368436d430a">cddae668474b9110b16fa368436d4338</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

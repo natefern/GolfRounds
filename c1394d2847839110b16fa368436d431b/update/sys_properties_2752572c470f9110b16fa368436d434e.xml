@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>The amount of time (HH:mm:ss) a golfer has to submit scores for all 18 holes before the round is invalidated |&#13;
+NOTE: All scores are invalidated at the start of the next day |&#13;
+The default value is 2 hours</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_898924_rounds.round.approvalwindow</name>
+        <read_roles>x_898924_rounds.admin</read_roles>
+        <suffix>round.approvalwindow</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-05 23:46:11</sys_created_on>
+        <sys_id>2752572c470f9110b16fa368436d434e</sys_id>
+        <sys_name>x_898924_rounds.round.approvalwindow</sys_name>
+        <sys_package display_value="Golf Rounds" source="x_898924_rounds">c1394d2847839110b16fa368436d431b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Golf Rounds">c1394d2847839110b16fa368436d431b</sys_scope>
+        <sys_update_name>sys_properties_2752572c470f9110b16fa368436d434e</sys_update_name>
+        <type>string</type>
+        <value>02:00:00</value>
+        <write_roles>x_898924_rounds.admin</write_roles>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=2752572c470f9110b16fa368436d434e"/>
+</record_update>
