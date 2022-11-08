@@ -26,14 +26,13 @@
         <element label="Rental items" max_length="40" name="rental_items" type="string"/>
         <element label="Rent items" max_length="40" name="rent_items_bool" type="boolean"/>
         <element label="Score" max_length="40" name="score" type="integer"/>
-        <element label="Tee time start" max_length="40" name="tee_time" reference="x_898924_rounds_rentals" type="reference"/>
-        <element label="Tee time end" max_length="32" name="tee_time_end" reference="x_898924_rounds_rentals" type="reference"/>
+        <element label="Tee time" max_length="32" name="tee_time" reference="x_898924_rounds_rentals" type="reference"/>
         <element label="Validated" max_length="40" name="validated" type="boolean"/>
         <index name="index">
             <element name="golfer"/>
         </index>
         <index name="index2">
-            <element name="tee_time_end"/>
+            <element name="tee_time"/>
         </index>
     </element>
 </database>

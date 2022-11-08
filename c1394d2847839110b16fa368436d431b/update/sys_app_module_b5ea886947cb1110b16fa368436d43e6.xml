@@ -8,30 +8,30 @@
         <hint/>
         <homepage/>
         <image/>
-        <link_type>LIST</link_type>
+        <link_type>SCRIPT</link_type>
         <map_page/>
-        <mobile_title>All Rentals</mobile_title>
+        <mobile_title>GenerateRounds</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_898924_rounds_rentals</name>
-        <order>1000</order>
+        <name/>
+        <order>2100</order>
         <override_menu_roles>false</override_menu_roles>
-        <query/>
+        <query>javascript: new RoundUtils().generateTeeTimes()</query>
         <report/>
-        <roles>x_898924_rounds.admin</roles>
+        <roles/>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-11-05 22:41:39</sys_created_on>
+        <sys_created_on>2022-11-08 11:46:27</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>1d15cb2c47cb9110b16fa368436d4336</sys_id>
-        <sys_name>Manage Rentals</sys_name>
+        <sys_id>b5ea886947cb1110b16fa368436d43e6</sys_id>
+        <sys_name>Generate Rounds</sys_name>
         <sys_overrides/>
         <sys_package display_value="Golf Rounds" source="x_898924_rounds">c1394d2847839110b16fa368436d431b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Golf Rounds">c1394d2847839110b16fa368436d431b</sys_scope>
-        <sys_update_name>sys_app_module_1d15cb2c47cb9110b16fa368436d4336</sys_update_name>
+        <sys_update_name>sys_app_module_b5ea886947cb1110b16fa368436d43e6</sys_update_name>
         <timeline_page/>
-        <title>Manage Rentals</title>
+        <title>Generate Rounds</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

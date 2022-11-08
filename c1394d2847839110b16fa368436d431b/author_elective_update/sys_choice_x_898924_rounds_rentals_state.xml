@@ -17,29 +17,13 @@
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Awaiting Deployment</label>
-            <language>en</language>
-            <name>x_898924_rounds_rentals</name>
-            <sequence>1</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-11-06 00:53:45</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <value>awaiting_deployment</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>state</element>
-            <hint/>
-            <inactive>false</inactive>
             <label>Available</label>
             <language>en</language>
             <name>x_898924_rounds_rentals</name>
-            <sequence>2</sequence>
+            <sequence/>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-11-06 00:52:13</sys_created_on>
+            <sys_created_on>2022-11-08 11:20:05</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <value>available</value>
@@ -49,29 +33,29 @@
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Reserved</label>
+            <label>Awaiting deployment</label>
             <language>en</language>
             <name>x_898924_rounds_rentals</name>
-            <sequence>3</sequence>
+            <sequence/>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-11-06 00:53:03</sys_created_on>
+            <sys_created_on>2022-11-08 11:20:40</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <value>reserved</value>
+            <value>awaiting_deployment</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>In Maintenance</label>
+            <label>In maintenance</label>
             <language>en</language>
             <name>x_898924_rounds_rentals</name>
-            <sequence>4</sequence>
+            <sequence/>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-11-06 00:52:43</sys_created_on>
+            <sys_created_on>2022-11-08 11:21:32</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <value>in_maintenance</value>
@@ -84,10 +68,10 @@
             <label>Missing</label>
             <language>en</language>
             <name>x_898924_rounds_rentals</name>
-            <sequence>5</sequence>
+            <sequence/>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-11-06 00:56:31</sys_created_on>
+            <sys_created_on>2022-11-08 11:22:04</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <value>missing</value>
@@ -97,13 +81,29 @@
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Reserved</label>
+            <language>en</language>
+            <name>x_898924_rounds_rentals</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-08 11:21:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>reserved</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Retired</label>
             <language>en</language>
             <name>x_898924_rounds_rentals</name>
-            <sequence>6</sequence>
+            <sequence/>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-11-06 00:56:23</sys_created_on>
+            <sys_created_on>2022-11-08 11:21:59</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <value>retired</value>

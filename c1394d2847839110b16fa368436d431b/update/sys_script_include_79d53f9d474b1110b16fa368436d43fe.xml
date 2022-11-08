@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_898924_rounds.RoundUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>RoundUtils</name>
+        <script><![CDATA[var RoundUtils = Class.create();
+RoundUtils.prototype = {
+    initialize: function() {
+		// get application properties
+		this.start = gs.getProperty('x_898924_rounds_rentals.round.openinghour', '06:30:00');  // 6:30am default opening time
+		this.end = gs.getProperty('x_898924_rounds_rentals.round.closinghour', '17:00:00');  // 5pm default closing time
+		this.length = gs.getProperty('x_898924_rounds_rentals.round.length', '04:30:00');       // default 4.5hr tee times
+		this.stagger = gs.getProperty('x_898924_rounds_rentals.round.stagger', 15);             // amount of time between each tee time start
+    },
+	
+	/**********
+	 *
+	 * generateTeeTimes - genereate tee time records on the rentabls table for reservation
+	 *
+	 * @param - None
+	 * @return: None
+	 *
+	 **********/
+	generateTeeTimes: function() {
+		// the dates are irrelevant, just pass to construct GDT obj
+		var gdtStart = new GlideDateTime("2011-01-01 " + this.start);
+		var gdtEnd = new GlideDateTime("2011-01-01 " + this.end);
+
+		var gdtEndTime = new GlideDateTime("2011-01-01 " + this.start);
+		var gtRoundLength = new GlideTime();
+		gtRoundLength.setValue(this.length);
+		gdtEndTime.add(gtRoundLength);    // add the length of each round to the start time to construct the end time for each round
+
+		var gtStagger = new GlideTime();    // amount of minutes to stagger the start of the next tee time
+		gtStagger.setValue("00:" + this.stagger + ":00"); 
+		while(gdtStart.before(gdtEnd)) {
+			// create the record
+			var gRound = new GlideRecord('x_898924_rounds_rentals');
+			gRound.initialize();
+			gRound.setValue('state', 'available');
+			gRound.setValue('category', 'tee_time_category');
+			gRound.round_start = gdtStart.getTime().getByFormat('HH:mm');    // the date is irrelevant
+			gRound.planned_round_end = gdtEndTime.getTime().getByFormat('HH:mm');
+			gRound.insert();
+			gdtStart.add(gtStagger);    // increment the start time by the stagger property
+			gdtEndTime.add(gtStagger);    // increment the end time by the stagger property
+		}
+	},
+	
+
+    type: 'RoundUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-08 10:23:49</sys_created_on>
+        <sys_id>79d53f9d474b1110b16fa368436d43fe</sys_id>
+        <sys_name>RoundUtils</sys_name>
+        <sys_package display_value="Golf Rounds" source="x_898924_rounds">c1394d2847839110b16fa368436d431b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Golf Rounds">c1394d2847839110b16fa368436d431b</sys_scope>
+        <sys_update_name>sys_script_include_79d53f9d474b1110b16fa368436d43fe</sys_update_name>
+    </sys_script_include>
+</record_update>

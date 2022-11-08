@@ -17,16 +17,16 @@
             <element>category</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Club</label>
+            <label>Tee Time</label>
             <language>en</language>
             <name>x_898924_rounds_rentals</name>
-            <sequence/>
+            <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-11-05 22:24:21</sys_created_on>
+            <sys_created_on>2022-11-08 11:13:57</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <value>club</value>
+            <value>tee_time_category</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -36,10 +36,10 @@
             <label>Power Cart</label>
             <language>en</language>
             <name>x_898924_rounds_rentals</name>
-            <sequence/>
+            <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-11-05 22:23:36</sys_created_on>
+            <sys_created_on>2022-11-08 11:14:23</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <value>power_cart</value>
@@ -52,10 +52,10 @@
             <label>Push Cart</label>
             <language>en</language>
             <name>x_898924_rounds_rentals</name>
-            <sequence/>
+            <sequence>3</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-11-06 00:48:34</sys_created_on>
+            <sys_created_on>2022-11-08 11:14:14</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <value>push_cart</value>
@@ -65,16 +65,16 @@
             <element>category</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Tee Time</label>
+            <label>Golf Club</label>
             <language>en</language>
             <name>x_898924_rounds_rentals</name>
-            <sequence/>
+            <sequence>4</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-11-05 22:25:35</sys_created_on>
+            <sys_created_on>2022-11-08 11:14:05</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <value>tee_time_category</value>
+            <value>golf_club</value>
         </sys_choice>
     </sys_choice>
 </record_update>

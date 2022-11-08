@@ -13,7 +13,7 @@
         <mobile_title>Properties</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name/>
-        <order>1000</order>
+        <order>1300</order>
         <override_menu_roles>false</override_menu_roles>
         <query>system_properties_ui.do?sysparm_title=Golf Round Properties&amp;sysparm_category=Round Properties</query>
         <report/>

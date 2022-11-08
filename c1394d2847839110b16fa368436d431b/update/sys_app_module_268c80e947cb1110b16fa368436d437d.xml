@@ -8,30 +8,30 @@
         <hint/>
         <homepage/>
         <image/>
-        <link_type>LIST</link_type>
+        <link_type>SEPARATOR</link_type>
         <map_page/>
-        <mobile_title>Rent Logs</mobile_title>
+        <mobile_title>Executeables</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_898924_rounds_rent_log</name>
-        <order>600</order>
+        <name/>
+        <order>2000</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_898924_rounds.rent_log_user</roles>
+        <roles/>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-11-06 00:41:49</sys_created_on>
+        <sys_created_on>2022-11-08 11:49:41</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>f0d0abac474f9110b16fa368436d4303</sys_id>
-        <sys_name>Rent Logs</sys_name>
+        <sys_id>268c80e947cb1110b16fa368436d437d</sys_id>
+        <sys_name>Executeables</sys_name>
         <sys_overrides/>
         <sys_package display_value="Golf Rounds" source="x_898924_rounds">c1394d2847839110b16fa368436d431b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Golf Rounds">c1394d2847839110b16fa368436d431b</sys_scope>
-        <sys_update_name>sys_app_module_f0d0abac474f9110b16fa368436d4303</sys_update_name>
+        <sys_update_name>sys_app_module_268c80e947cb1110b16fa368436d437d</sys_update_name>
         <timeline_page/>
-        <title>Rent Logs</title>
+        <title>Executeables</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

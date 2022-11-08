@@ -6,7 +6,7 @@
         <guided_setup_guid/>
         <hide_on_ui>false</hide_on_ui>
         <installed_as_dependency>false</installed_as_dependency>
-        <js_level>helsinki_es5</js_level>
+        <js_level>es_latest</js_level>
         <licensable>true</licensable>
         <license/>
         <license_category>none</license_category>
@@ -17,7 +17,7 @@
         <name>Golf Rounds</name>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
-        <runtime_access_tracking>enforcing</runtime_access_tracking>
+        <runtime_access_tracking>permissive</runtime_access_tracking>
         <scope>x_898924_rounds</scope>
         <scoped_administration>false</scoped_administration>
         <short_description>Golf shot tracking, course maintenance, and inventory management.</short_description>

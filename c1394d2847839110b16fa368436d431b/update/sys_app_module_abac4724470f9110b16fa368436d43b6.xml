@@ -13,7 +13,7 @@
         <mobile_title>Rou</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name/>
-        <order>900</order>
+        <order>1000</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>

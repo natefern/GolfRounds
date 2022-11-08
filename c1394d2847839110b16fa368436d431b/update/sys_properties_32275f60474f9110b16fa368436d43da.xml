@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
     <sys_properties action="INSERT_OR_UPDATE">
         <choices/>
-        <description>The time you want the last round to end (24-hour clock) |&#13;
+        <description>The time you want the last round to START (24-hour clock) |&#13;
 The default is 5pm</description>
         <ignore_cache>false</ignore_cache>
         <is_private>false</is_private>

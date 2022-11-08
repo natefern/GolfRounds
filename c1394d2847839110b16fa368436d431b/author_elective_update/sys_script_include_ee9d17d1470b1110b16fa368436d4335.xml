@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_898924_rounds.generateTeeTimes</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>generateTeeTimes</name>
+        <script><![CDATA[function generateTeeTimes(tee_time) {
+
+	try {
+		var gRound = new GlideRecord('x_898924_rounds_rentals');
+		gRound.initialize();
+		gRound.setValue('state', 'available');
+		gRound.setValue('category', 'tee_time_category');
+		//gRound.round_start = tee_time;
+		gRound.short_desc = tee_time;
+		gRound.insert();
+		
+	} catch(error) {
+		gs.error(error);
+	}
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-08 08:30:04</sys_created_on>
+        <sys_id>ee9d17d1470b1110b16fa368436d4335</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>generateTeeTimes</sys_name>
+        <sys_package display_value="Golf Rounds" source="x_898924_rounds">c1394d2847839110b16fa368436d431b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Golf Rounds">c1394d2847839110b16fa368436d431b</sys_scope>
+        <sys_update_name>sys_script_include_ee9d17d1470b1110b16fa368436d4335</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-08 09:13:21</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Golf Rounds">c1394d2847839110b16fa368436d431b</application>
+        <file_path/>
+        <instance_id>40c2b9fddb31cd101b813feb68961981</instance_id>
+        <instance_name>dev125984</instance_name>
+        <name>sys_script_include_ee9d17d1470b1110b16fa368436d4335</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_898924_rounds.generateTeeTimes&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;generateTeeTimes&lt;/name&gt;&lt;script&gt;&lt;![CDATA[function generateTeeTimes(tee_time) {
+
+	try {
+		var gRound = new GlideRecord('x_898924_rounds_rentals');
+		gRound.initialize();
+		gRound.setValue('state', 'available');
+		gRound.setValue('category', 'tee_time_category');
+		//gRound.round_start = tee_time;
+		gRound.short_desc = tee_time;
+		gRound.insert();
+		
+	} catch(error) {
+		gs.error(error);
+	}
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-11-08 08:30:04&lt;/sys_created_on&gt;&lt;sys_id&gt;ee9d17d1470b1110b16fa368436d4335&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;generateTeeTimes&lt;/sys_name&gt;&lt;sys_package display_value="Golf Rounds" source="x_898924_rounds"&gt;c1394d2847839110b16fa368436d431b&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Golf Rounds"&gt;c1394d2847839110b16fa368436d431b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_ee9d17d1470b1110b16fa368436d4335&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-11-08 09:13:21&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-97485169</payload_hash>
+        <record_name>generateTeeTimes</record_name>
+        <reverted_from/>
+        <source>3e607b6c478f9110b16fa368436d436b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-08 09:13:21</sys_created_on>
+        <sys_id>d1196311474b1110b16fa368436d434a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1845683fbf40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-08 09:13:21</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>d91963114f4b11107541b6b26c814249</update_guid>
+        <update_guid_history>d91963114f4b11107541b6b26c814249:-97485169,5d736f59e80b1110eb7d2327f71e2f9d:640028768,02436759fc0b1110764009d649ffe864:-1004872014,cbf2ab19ad0b1110f58dde9f46ba85da:681133890,1fb22f19be0b111019bc69e95e5069eb:-182566250,e4726b190d0b11108869fff0ea8e6215:560280782,ad522b19e00b11101677517ee017b1ec:-1455101821,e7f02b15010b11109061a7cb22b0a919:-488759631,37bfd755c80b111048e1be66f0f78341:808458839,1f2f1b15380b1110229a9df908fbb312:-237326791</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-08 10:49:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>1ea58345a91a4c60b4c3103bd7e64400</sys_id>
+        <sys_metadata>ee9d17d1470b1110b16fa368436d4335</sys_metadata>
+        <sys_name>generateTeeTimes</sys_name>
+        <sys_package display_value="Golf Rounds" source="x_898924_rounds">c1394d2847839110b16fa368436d431b</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Golf Rounds">c1394d2847839110b16fa368436d431b</sys_scope>
+        <sys_scope_delete display_value="">40615300aff64661a4d094df23baef09</sys_scope_delete>
+        <sys_update_name>sys_script_include_ee9d17d1470b1110b16fa368436d4335</sys_update_name>
+        <sys_update_version display_value="sys_script_include_ee9d17d1470b1110b16fa368436d4335">d1196311474b1110b16fa368436d434a</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
